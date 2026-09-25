@@ -7,45 +7,40 @@ let menu =[ {name :"food1", price: 1, category: "cate1", available: false},
             {name :"food5", price: 6, category: "cate5", available: true}, ];
 
 function showMenu(){ 
-   for(let i=0; i< menu.length ; i++)
-     {
-    console.log(menu[i].name + ":"+ menu[i].price);
+for(let i=0; i< menu.length ; i++)
+{
+    console.log(menu[i].name + " : "+ menu[i].price);
 }        
 }
 
 showMenu();
 
 
-let orderFood =prompt(" Enter your order ");
 let selectedFood = null;
 
 while( selectedFood === null ) 
 {   
+  orderFood =prompt(" Enter your order ");
+
    for(let i=0; i< menu.length ; i++)
    {
-      if (menu[i].available === false)
+      if (menu[i].name === orderFood && menu[i].available === true )
     {
-      continue;
-    }  
-   if(menu[i].name === orderFood )
-    {
-      selectedFood=menu[i];
+      selectedFood = menu[i];
       break;
     }
-         }
+  }
 
-
-if(selectedFood === null){
-
+  if(selectedFood === null){
     alert("Food is unavailable or does not exist. Please choose again");
-    orderFood =prompt(" Enter your order ");
+     }
 }
-        }
 
-
+      
      for(let property in selectedFood)
  {
-  console.log(property + selectedFood[property]);
+
+   console.log(property + " :"+selectedFood[property]);
 }
 
 
