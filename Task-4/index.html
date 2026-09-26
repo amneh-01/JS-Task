@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+</head>
+<body>
+    <form id="form">
+        <label for="user">Username : </label>
+        <input name="userName" type="text" id="user">
+        <div id="nameError"></div>
+
+        <br><br>
+
+        <label for="password">Password : </label>
+        <input name="pass" type="password" id="password">
+        <div id="passError"></div>
+        
+        <br><br>
+
+        <label for="number">Phone Number : </label>
+        <input name="number" type="tel" id="number">
+        <div id="phoneError"></div>
+
+        <br><br>
+
+        <label for="order">Order : </label>
+        <input name="order" type="text" id="order">
+        
+        <br><br>
+    </form>
+
+    <button id="btn">Submit</button>
+    <div id="orderDetails"></div>
+    
+    <script src="java.js"></script>
+</body>
+</html>
