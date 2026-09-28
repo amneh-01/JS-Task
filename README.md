@@ -1,6 +1,6 @@
 # JS-Task
 
-Task-1 ....... 20/9
+Task-1 ....... (20/9)
 
 1. User Info & Greeting:** Prompt for `Name`, `Age`, and `Gender` $\rightarrow$ Alert personalized greeting (`Mr.`, `Ms.`, or default).
 2. Age Check:** Verify age $\rightarrow$ If $< 16$, alert `"You are not eligible to place an order"` and stop.
@@ -18,7 +18,7 @@ Requires Verification:** Age $< 18$ **OR** invalid item.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
-Task-2 ...... 22/9
+Task-2 ...... (22/9)
 
 1. Menu Data Setup**
   Create a `menu` array with at least 5 food objects.
@@ -75,3 +75,8 @@ onmouseout →
  return the button to its original color.
 1.Styling
 Add simple CSS to make the page look clean.
+
+
+Task-3 ....... (24/9)
+
+
