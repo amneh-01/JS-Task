@@ -1,0 +1,7 @@
+
+[
+    { "Meal-Name": "food1" , "Price": 2 , "Availability": true },
+    { "Meal-Name": "food2" , "Price": 3 , "Availability": true },
+    { "Meal-Name": "food3" , "Price": 4 , "Availability": false },
+    { "Meal-Name": "food4" , "Price": 6 , "Availability": true }
+]

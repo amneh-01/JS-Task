@@ -60,5 +60,3 @@ document.write("Order :"+order  + "<br>");
 document.write("vaild:"+ valid  + "<br>");
 document.write("<br>");
 
-
-
